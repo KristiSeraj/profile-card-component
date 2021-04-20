@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    background-image: url(images/bg-pattern-bottom.svg);
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+ 
+#top {
+    transform: rotate(-70deg);
+}
