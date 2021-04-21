@@ -4,15 +4,39 @@
     box-sizing: border-box;
 }
 
-body::before {
-    background-image: url(images/bg-pattern-bottom.svg);
-}
-
 body {
     background-color: hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+
+.top, .bottom {
+    position: fixed;
 }
  
-#top {
-    transform: rotate(-70deg);
+.top {
+    bottom: 50%;
+    right: 50%;
 }
+
+.bottom {
+    top: 50%;
+    left: 50%;
+}
+
+ .card {
+    max-width: 310px;
+    max-height: 350px;
+    background-color: white;
+    border-radius: 10px;
+ }
+
+ #pattern {
+    max-width: 310px;
+ }
+
+ #profile {
+     border-radius: 50%;
+     position: absolute;
+     top: 10px;
+ }
