@@ -89,6 +89,7 @@ body {
 .city {
     position: relative;
     bottom: 20px;
+    font-size: 14px;
     color: hsl(227, 10%, 46%);
 }
 
